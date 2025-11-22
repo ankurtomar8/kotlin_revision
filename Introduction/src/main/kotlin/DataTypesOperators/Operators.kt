@@ -1,4 +1,4 @@
-package org.example
+package org.example.DataTypesOperators
 
     fun main(){
         val num1 = 10

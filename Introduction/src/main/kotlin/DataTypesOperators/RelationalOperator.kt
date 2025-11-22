@@ -1,4 +1,4 @@
-package org.example
+package org.example.DataTypesOperators
 
 fun main(){
 
@@ -12,9 +12,5 @@ fun main(){
     println(ankitMarks >= ankurMarks) // true
     println(ankitMarks <= ankurMarks) // false
     println(ankitMarks != ankurMarks) // true
-
-
-
-
 
 }
