@@ -10,5 +10,5 @@ package org.example
         // Multiply
         println("num1 * num2 = ${num1 *  num2}")
         // Divide
-        println("num1 % num2 = ${num1 % num2 }")
+        println("num2 % num1 = ${num2 % num1 }")
     }
