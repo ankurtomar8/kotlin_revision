@@ -5,15 +5,10 @@ fun main(args: Array<String>) {
     val Name = "Ankur Singh Tomar"
     val age : Int = 10
     val Address : String = "New City Society"
-
     val isStudent : Boolean = true
-
     var newChar : Char = 'A'
-
     println("Name : $Name Age: $age Address: $Address and Student $isStudent char $newChar")
-
     greetings(Name)
-
     val num1:Int =  20
     val  num2: Int  = 5
      calculateNumbers(num1,num2)
