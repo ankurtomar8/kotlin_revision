@@ -26,6 +26,7 @@ fun main(){
         1 -> {println("JPN is selected")}
         2 -> {println("HKG is selected")}
         3 -> {println("IND")}
+        else -> {println("Region not exist")}
     }
 
 }
