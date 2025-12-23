@@ -19,6 +19,14 @@ fun main(){
     println()
     foodItems()
 
+    println()
+    val names = getNames()
+    for (names in names){
+        println(" Name is  $names")
+    }
 
+}
 
+fun getNames(): Array<String>{
+    return arrayOf("A","B","C")
 }
