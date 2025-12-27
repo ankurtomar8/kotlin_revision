@@ -1,17 +1,19 @@
 public class DuplicateCharacters {
 
-    public static  void main(String[] args){
+    public static void main(String[] args){
 
-        char[]  charInput  = {'a','b','c','d','a','a','b'};
+        char[] inputChar = {'a','b','c','d','b','a','a'};
+
         StringBuilder result = new StringBuilder();
 
-        for(char c : charInput){
+        for(char c : inputChar){
             if(result.indexOf(String.valueOf(c)) == -1){
                 result.append(c);
             }
+            System.out.println(result);
         }
 
-        System.out.println("  "+result.toString());
+
 
 
 
